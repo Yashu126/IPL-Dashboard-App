@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.link-style {
+  text-decoration: none;
+}
+
+.team-card {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.team-img {
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .team-card {
+    width: 300px;
+    height: 120px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .team-img {
+    width: 80px;
+    height: 80px;
+  }
+}

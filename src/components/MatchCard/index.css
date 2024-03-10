@@ -1,0 +1,39 @@
+.match-card {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 47%;
+  background-color: #1e293b;
+  text-align: center;
+  height: 350px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.match-logo {
+  width: 40%;
+}
+.team-head {
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.won-class {
+  color: #18ed66;
+}
+.lost-class {
+  color: #e31a1a;
+}
+
+@media (min-width: 768px) {
+  .match-card {
+    width: 30%;
+    height: 450px;
+  }
+  .match-logo {
+    width: 40%;
+  }
+}
